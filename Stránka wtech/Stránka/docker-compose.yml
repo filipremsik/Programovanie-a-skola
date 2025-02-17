@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    env_file:
+      - "/.env"
+    ports:
+      - "1313:1313"
+    networks:
+      - sharednetwork
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    command: -p 1313
+
+
+networks:
+  sharednetwork:
+
+volumes:
+  db_data:

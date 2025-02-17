@@ -1,0 +1,1 @@
+const id_input = document.getElementById(""); 

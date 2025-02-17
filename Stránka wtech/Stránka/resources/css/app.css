@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sliderPrice{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: #95ADBE;
+}
+
+.sliderPrice::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background-color: #E0F0EA;
+    cursor: pointer;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.sliderPrice::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    background-color: #E0F0EA;
+    cursor: pointer;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.inputPrice::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #3C2A4D; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #574F7D; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #95ADBE;
+  }
+
+  input[type=number]::-webkit-inner-spin-button {
+    opacity: 0;
+  }
