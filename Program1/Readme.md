@@ -1,1 +1,0 @@
-Testovanie štruktúry
